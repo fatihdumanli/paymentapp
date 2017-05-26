@@ -14,7 +14,7 @@ With the aid of different sessions, it is possible to pay the check separately. 
 
 <h2>Technical</h2>
 
-In the development process 8.527 lines of  C# code is written. (HTML and XAML excluded.) The fundamental approaches of bject Oriented Programming are followed. Modules are loosely coupled and reusable. 
+In the development process 8.527 lines of  C# code is written. (HTML and XAML excluded.) The fundamental approaches of Object Oriented Programming are followed. Modules are loosely coupled and reusable. 
 
 Model – View – ViewModel pattern is followed as well. The key idea of MVVM pattern is <i>Separation of Concerns.</i> It represents the independence between the modules. In the projects MVVM pattern followed it is possible to write reusable and human-readable code, build scalable modules. 
 
