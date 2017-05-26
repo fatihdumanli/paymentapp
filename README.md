@@ -6,7 +6,16 @@ Basicly it helps people when they go out. People can place an order with their m
 
 It works on Windows 10 Mobile.
 
-<img src="http://i2.wp.com/fatihdumanli.com/wp-content/uploads/2015/10/payngoss.png" width="300"/>
+<table>
+<tr>
+<td>
+<img src="http://i2.wp.com/fatihdumanli.com/wp-content/uploads/2015/10/payngoss.png" width="200"/>
+</td>
+<td>
+<img src="http://i0.wp.com/fatihdumanli.com/wp-content/uploads/2015/10/menuss.png" width="200"/>
+</td>
+</tr>
+</table>
 
 Did you like it? Feel free to contact.
 fatihdumanli@live.com.
