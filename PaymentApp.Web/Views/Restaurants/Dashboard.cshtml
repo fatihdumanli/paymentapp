@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+}
+@model PaymentApp.Web.Models.Restaurant
+@using PaymentApp.Web.Controllers
+
+<h2>@Model.Name Dashboard</h2>
+<h3>Tables</h3>
+
+<div class="row">
+@{
+    var tables = ((RestaurantsController)this.ViewContext.Controller).GetRestaurantTables(Model.Id);
+
+    foreach (var table in tables)
+    {
+
+        var result = ((RestaurantsController)this.ViewContext.Controller).IsSessionExist(Model.Id, table.Id);
+
+
+        if (result)
+        {
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <strong>Table @table.Id</strong>
+                        <p class="pull-right glyphicon glyphicon-asterisk"
+                           style="color:green; font-size:22px;"></p>
+
+                        @{ 
+                            var amount = ((RestaurantsController)this.ViewContext.Controller)
+                                .GetUnpaidTransactionTotal(Model.Id, table.Id);
+                        }
+                        (Check Unpaid: <strong>TRY @amount</strong>)
+                    </div>
+                </div>
+            </div>
+                            }
+
+                            else
+                            {
+
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        Table @table.Id
+                        <p class="pull-right glyphicon glyphicon-asterisk"
+                           style="color:red; font-size:22px;"></p>
+                    </div>
+                </div>
+            </div>
+
+        }
+
+    }
+
+}
+</div>

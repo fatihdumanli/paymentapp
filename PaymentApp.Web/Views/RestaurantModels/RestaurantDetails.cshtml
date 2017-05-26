@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "RestaurantDetails";
+}
+
+<h2>RestaurantDetails</h2>
+
+
+@using (Html.BeginForm("InsertRestaurant", "Restaurants"))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Enter your restaurant details.</h4>
+        <hr />
+
+        <div class="form-group">
+            @Html.Label("Restaurant Name:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("name", "", new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Longitude:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("longitude", "", new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Latitude:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("latitude", "", new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Phone Number:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("phonenumber", "", new { @class = "form-control" })
+            </div>
+        </div>
+
+        @Html.Hidden("restaurantModelId", Request.QueryString[""])
+
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Submit" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}

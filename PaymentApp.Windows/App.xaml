@@ -1,0 +1,18 @@
+﻿<Application
+    x:Class="PaymentApp.Windows.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PaymentApp.Windows"
+    RequestedTheme="Light"
+    xmlns:viewModels="using:PaymentApp.Windows.ViewModel">
+
+    <Application.Resources>
+        <viewModels:RegisterViewModel x:Key="registerVm"></viewModels:RegisterViewModel>
+        <viewModels:LoginViewModel x:Key="loginVm"></viewModels:LoginViewModel>
+        <viewModels:DashboardViewModel x:Key="dashboardVm"></viewModels:DashboardViewModel>
+        <viewModels:RestaurantViewModel x:Key="restaurantVm"></viewModels:RestaurantViewModel>
+        <SolidColorBrush Color="#FFE0E0E0"  x:Key="ApplicationBackgroundColor"></SolidColorBrush>
+        <viewModels:OrderViewModel x:Key="orderVm"></viewModels:OrderViewModel>
+        <viewModels:PaymentViewModel x:Key="paymentVm"></viewModels:PaymentViewModel>
+    </Application.Resources>
+</Application>

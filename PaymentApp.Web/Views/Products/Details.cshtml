@@ -1,0 +1,58 @@
+﻿@model PaymentApp.Web.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CatId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CatId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RestaurantId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RestaurantId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUri)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImageUri)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Availability)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Availability)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
