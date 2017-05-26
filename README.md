@@ -6,5 +6,7 @@ Basicly it helps people when they go out. People can place an order with their m
 
 It works on Windows 10 Mobile.
 
+![Pay & Go](http://i2.wp.com/fatihdumanli.com/wp-content/uploads/2015/10/payngoss.png)
+
 Did you like it? Feel free to contact.
 fatihdumanli@live.com.
