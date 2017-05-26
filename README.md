@@ -12,6 +12,13 @@ Pay  & Go also offers splitting the check. For each person on the table, differe
 
 With the aid of different sessions, it is possible to pay the check separately. Pay & Go is the best way to go dutch.
 
+<h2>Technical</h2>
+
+In the development process 8.527 lines of  C# code is written. (HTML and XAML excluded.) The fundamental approaches of Object Oriented Programming are followed. Modules are loosely coupled and reusable. 
+Model – View – ViewModel pattern is followed as well. The key idea of MVVM pattern is Separation of Concerns. It represents the independence between the modules. In the projects MVVM pattern followed it is possible to write reusable and human-readable code, build scalable modules. MVVM pattern is not platform specific pattern. Can be implemented in any platform. (More information about MVVM pattern at: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
+
+
+<h2>Screenshots</h2>
 <table>
 <tr>
 <td>
