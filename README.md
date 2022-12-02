@@ -2,7 +2,7 @@
 ![Pay&Go Landing Page](./doc/payngo-landing.png) 
 
 ## What is Pay & Go
-Pay & Go is my graduation project, a product prototype that I built back in 2014. It helps people when they go out. People can place an order with their mobile phones, and pay the check with credit card through the application. 
+Pay & Go is my graduation project, a SaaS prototype that offers to facilitate service operations in restaurants. People can place an order with their mobile phones, and pay the check with a credit card through the application. 
 
 The app runs on Windows 10 Mobile. The restaurant back office is built with ASP.NET MVC 4.5.
 
