@@ -1,37 +1,18 @@
 # Pay & Go
+![Pay&Go Landing Page](./doc/payngo-landing.png) 
 
-<h2>What is Pay & Go</h2>
-The project Pay & Go is a case study and my graduation project.
+## What is Pay & Go
+Pay & Go is my graduation project, a product prototype that I built back in 2014. It helps people when they go out. People can place an order with their mobile phones, and pay the check with credit card through the application. 
 
-Basicly it helps people when they go out. People can place an order with their mobile phones, and pay the check with credit card through the application.
+The app runs on Windows 10 Mobile. The restaurant back office is built with ASP.NET MVC 4.5.
 
-It works on Windows 10 Mobile.
-
-<h2>Pay & Go enables you to go dutch</h2>
+## Pay & Go enables people 'Go Dutch!'
 Pay  & Go also offers <i>splitting the check</i>. For each person on the table, different sessions starts.
-
 With the aid of different sessions, it is possible to pay the check separately. Pay & Go is the best way to <i>go dutch</i>.
 
-<h2>Technical</h2>
 
-In the development process 8.527 lines of  C# code is written. (HTML and XAML excluded.) The fundamental approaches of Object Oriented Programming are followed. Modules are loosely coupled and reusable. 
+# Screenshots
+| ![Pay&Go Login Screen](./doc/payngo-1.png) | ![Restaurant Menu](./doc/payngo-menu.png) |
+|--|--|
+| ![Checkout Page](./doc/payngo-checkout.png) | ![Payment Page](./doc/payngo-payment.png) |
 
-Model – View – ViewModel pattern is followed as well. The key idea of MVVM pattern is <i>Separation of Concerns.</i> It represents the independence between the modules. In the projects MVVM pattern followed it is possible to write reusable and human-readable code, build scalable modules. 
-
-MVVM pattern is not platform specific pattern. Can be implemented in any platform. (More information about MVVM pattern at: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
-
-
-<h2>Screenshots</h2>
-<table>
-<tr>
-<td>
-<img src="http://i2.wp.com/fatihdumanli.com/wp-content/uploads/2015/10/payngoss.png" width="200"/>
-</td>
-<td>
-<img src="http://i0.wp.com/fatihdumanli.com/wp-content/uploads/2015/10/menuss.png" width="200"/>
-</td>
-</tr>
-</table>
-
-Did you like it? Feel free to contact.
-fatihdumanli@live.com.
